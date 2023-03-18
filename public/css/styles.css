@@ -28,10 +28,12 @@
 }
 .banner{
     background-color: gray;
-    height: 500px;
+    height: 450px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*momentaneo*/
 }
-.banner>img{padding: 50px;}
-.banner>h1{padding: 50px;}
+.banner>img{padding: 50px 0px 0px 250px;}
+.banner>h1{padding: 50px 0px 50px 250px;}
 .logoBig{
     display: block; 
     max-height: 110px;
