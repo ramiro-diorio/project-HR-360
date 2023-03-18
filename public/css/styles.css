@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color: #1C3470;
+    position: sticky;
+    }
+    button{
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+.login_btn{
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    vertical-align: 100%; /*ayuda no lo pude centrar de otra forma*/
+}
+.logoBig{
+    display: block; 
+    max-height: 110px;
+    }
+.logo{
+    position: static;
+    text-align: left;
+    max-height: 40px;
+    }
