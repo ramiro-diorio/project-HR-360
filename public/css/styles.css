@@ -19,8 +19,19 @@
     background-color: transparent;
     color: white;
     padding: 5px;
+    border-radius: 15px;
     vertical-align: 100%; /*ayuda no lo pude centrar de otra forma*/
 }
+.login_btn:hover{
+    background-color: #3D70F0;
+    transition: 0.25s;
+}
+.banner{
+    background-color: gray;
+    height: 500px;
+}
+.banner>img{padding: 50px;}
+.banner>h1{padding: 50px;}
 .logoBig{
     display: block; 
     max-height: 110px;
