@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     }
+
 .navbar{
+    display: flex;
     height: 40px;
     width: 100%;
     background-color: #1C3470;
     position: sticky;
+    justify-content: space-between;
+    padding: 10px 0px;
     }
+
     button{
         border: none;
         text-align: center;
@@ -15,31 +20,60 @@
         display: inline-block;
         cursor: pointer;
     }
+
+/* Estilos contenedor boton login */
+
+.container__logo {
+    width: 160px;
+    height: 100%;
+    text-align: center;
+}
+
+.container__btn {
+    padding: 0px 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a__login {
+    width: 75%;
+    text-align: center;
+}
+
 .login_btn{
     background-color: transparent;
     color: white;
     padding: 5px;
     border-radius: 15px;
-    vertical-align: 100%; /*ayuda no lo pude centrar de otra forma*/
+    width: 100%;
+    height: 100%;
 }
+
 .login_btn:hover{
     background-color: #3D70F0;
     transition: 0.25s;
 }
+
 .banner{
     background-color: gray;
     height: 450px;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*momentaneo*/
 }
-.banner>img{padding: 50px 0px 0px 250px;}
-.banner>h1{padding: 50px 0px 50px 250px;}
+
+.banner > img{padding: 50px 0px 0px 250px;}
+
+.banner > h1{padding: 50px 0px 50px 250px;}
+
 .logoBig{
     display: block; 
     max-height: 110px;
     }
+
 .logo{
-    position: static;
-    text-align: left;
     max-height: 40px;
+    object-fit: contain;
+    width: 100%;
     }
